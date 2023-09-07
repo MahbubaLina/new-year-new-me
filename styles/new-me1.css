@@ -30,7 +30,7 @@ header {
   margin-top: 30px;
   margin-left: 800px;
 }
-.btn-primary {
+.btn {
   width: 150px;
   height: 60px;
   border-radius: 5px;
@@ -52,11 +52,8 @@ header {
   width: 451px;
   /* flex-shrink: 0; */
   padding-top: 140px;
+  margin-left: 200px;
 }
-/* .failure-description{
-    padding-top: 370px;
-    padding-right: 250px;
-} */
 .failure-title {
   color: #151414;
   font-size: 40px;
@@ -80,4 +77,67 @@ header {
   color: #444343;
   font-weight: 400;
   line-height: 24px;
+}
+
+.my-plan-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 45px;
+  padding-bottom: 30px;
+}
+.skills {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.skills img {
+  width: 80px;
+  height: 80px;
+}
+.skills h4 {
+  color: #151414;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+.skills p {
+  color: #737272;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.mindset {
+  margin-top: 130px;
+  width: 1140px;
+  height: 300px;
+  background-image: url(../images/watch.png);
+  margin-left: 185px;
+  padding-left: 65px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  
+}
+.mindset-title {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 700;
+  width: 460px;
+  margin-bottom: 24px;
+}
+.btn-primary{
+    width: 160px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #FFF;
+border: 0;
+color:#F15B22 ;
+font-weight: 600;
+text-align: center;
+font-size: 18px;
 }
